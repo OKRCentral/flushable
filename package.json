@@ -18,6 +18,9 @@
       "^.+\\.jsx?$": "babel-jest"
     }
   },
+  "resolutions": {
+    "@octokit/rest/https-proxy-agent": "2.2.4"
+  },
   "devDependencies": {
     "@babel/core": "^7.0.0-rc.1",
     "@babel/preset-env": "^7.0.0-rc.1",
